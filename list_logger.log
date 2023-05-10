@@ -1,0 +1,234 @@
+
+2023-05-09 06:32:15,109 INFO Initializer is starting
+2023-05-09 06:32:15,109 INFO This is a list collection
+2023-05-09 06:32:33,430 INFO Initializer is starting
+2023-05-09 06:32:33,430 INFO This is not a list collection
+2023-05-09 06:35:04,940 INFO Initializer is starting
+2023-05-09 06:35:04,940 ERROR This is not a list collection
+2023-05-09 06:39:45,542 INFO Initializer is starting
+2023-05-09 06:39:45,542 ERROR This is not a list collection
+2023-05-09 06:41:36,551 INFO Initializer is starting
+2023-05-09 06:41:36,552 INFO This is a list collection
+2023-05-09 06:41:36,552 INFO This is a list collection
+2023-05-09 06:41:36,552 ERROR The program could not run because 'ListParser' object has no attribute 'list'
+Traceback (most recent call last):
+  File "C:\Users\Fujitsu\PycharmProjects\file_reader\list_package\list_class.py", line 29, in reverser
+    logging.info(f"The list passed is {self.list} and the reversed is {self.a[::-1]} ")
+AttributeError: 'ListParser' object has no attribute 'list'
+2023-05-09 06:43:46,074 INFO Initializer is starting
+2023-05-09 06:43:46,075 INFO This is a list collection
+2023-05-09 06:43:46,075 INFO This is a list collection
+2023-05-09 06:43:46,075 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 06:50:04,380 INFO Initializer is starting
+2023-05-09 06:50:04,380 INFO This is a list collection
+2023-05-09 06:50:04,380 INFO This is a list collection
+2023-05-09 06:50:04,380 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 06:50:04,380 INFO This is a list collection
+2023-05-09 06:50:04,381 INFO You had ['Ope', 'Christy'] and now after being cleared you have []
+2023-05-09 07:10:44,714 INFO Initializer is starting
+2023-05-09 07:10:44,729 INFO This is a list collection
+2023-05-09 07:10:44,730 INFO This is a list collection
+2023-05-09 07:10:44,730 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 07:10:44,730 INFO This is a list collection
+2023-05-09 07:10:44,730 ERROR The problem is can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\Fujitsu\PycharmProjects\file_reader\list_package\list_class.py", line 51, in appender
+    y = self.a + b
+TypeError: can only concatenate list (not "str") to list
+2023-05-09 07:10:44,751 INFO This is a list collection
+2023-05-09 07:10:44,751 INFO You had ['Ope', 'Christy'] and now after being cleared you have []
+2023-05-09 07:11:47,882 INFO Initializer is starting
+2023-05-09 07:11:47,882 INFO This is a list collection
+2023-05-09 07:11:47,883 INFO This is a list collection
+2023-05-09 07:11:47,883 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 07:11:47,883 INFO This is a list collection
+2023-05-09 07:11:47,883 ERROR The problem is can only concatenate list (not "str") to list
+Traceback (most recent call last):
+  File "C:\Users\Fujitsu\PycharmProjects\file_reader\list_package\list_class.py", line 51, in appender
+    y = [self.a + b]
+TypeError: can only concatenate list (not "str") to list
+2023-05-09 07:11:47,884 INFO This is a list collection
+2023-05-09 07:11:47,884 INFO You had ['Ope', 'Christy'] and now after being cleared you have []
+2023-05-09 07:27:58,917 INFO Initializer is starting
+2023-05-09 07:27:58,962 INFO This is a list collection
+2023-05-09 07:27:58,962 INFO This is a list collection
+2023-05-09 07:27:58,963 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 07:27:58,963 INFO This is a list collection
+2023-05-09 07:27:58,964 INFO You have appended Victor to the list to give ['Ope', 'Victor']
+2023-05-09 07:27:58,964 INFO This is a list collection
+2023-05-09 07:27:58,964 INFO You had ['Ope', 'Victor'] and now after being cleared you have []
+2023-05-09 07:28:50,233 INFO Initializer is starting
+2023-05-09 07:28:50,233 INFO This is a list collection
+2023-05-09 07:28:50,233 INFO This is a list collection
+2023-05-09 07:28:50,233 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 07:28:50,233 INFO This is a list collection
+2023-05-09 07:28:50,233 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 07:28:50,234 INFO This is a list collection
+2023-05-09 07:28:50,234 INFO You had ['Ope', 'Christy', 'Victor'] and now after being cleared you have []
+2023-05-09 12:50:51,063 INFO Initializer is starting
+2023-05-09 12:50:51,087 INFO This is a list collection
+2023-05-09 12:50:51,087 INFO This is a list collection
+2023-05-09 12:50:51,088 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 12:50:51,088 INFO This is a list collection
+2023-05-09 12:50:51,088 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 12:50:51,089 INFO Your insertion method is starting
+2023-05-09 12:50:51,089 INFO This is a list collection
+2023-05-09 12:50:51,089 INFO You had ['Ope', 'Christy', 'Victor'] and now after being cleared you have []
+2023-05-09 12:51:33,289 INFO Initializer is starting
+2023-05-09 12:51:33,289 INFO This is a list collection
+2023-05-09 12:51:33,289 INFO This is a list collection
+2023-05-09 12:51:33,289 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 12:51:33,289 INFO This is a list collection
+2023-05-09 12:51:33,290 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 12:51:33,290 INFO Your insertion method is starting
+2023-05-09 12:51:33,290 INFO This is a list collection
+2023-05-09 12:51:33,290 INFO You had ['Ope', 'Christy', 'Opeyemi'] and now after being cleared you have []
+2023-05-09 12:52:34,456 INFO Initializer is starting
+2023-05-09 12:52:34,456 INFO This is a list collection
+2023-05-09 12:52:34,456 INFO This is a list collection
+2023-05-09 12:52:34,457 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 12:52:34,457 INFO This is a list collection
+2023-05-09 12:52:34,457 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 12:52:34,457 INFO Your insertion method is starting
+2023-05-09 19:40:46,904 INFO Initializer is starting
+2023-05-09 19:40:46,918 INFO This is a list collection
+2023-05-09 19:40:46,918 INFO This is a list collection
+2023-05-09 19:40:46,918 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 19:40:46,918 INFO This is a list collection
+2023-05-09 19:40:46,918 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 19:40:46,918 INFO Your insertion method is starting
+2023-05-09 19:40:46,919 ERROR Index must be integer
+2023-05-09 19:41:20,167 INFO Initializer is starting
+2023-05-09 19:41:20,168 INFO This is a list collection
+2023-05-09 19:41:20,168 INFO This is a list collection
+2023-05-09 19:41:20,168 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 19:41:20,168 INFO This is a list collection
+2023-05-09 19:41:20,169 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 19:41:20,169 INFO Your insertion method is starting
+2023-05-09 19:41:20,169 INFO Your list has been updated with Opeyemi, so you have ['Ope', 'Christy', 'Opeyemi']
+2023-05-09 19:42:32,283 INFO Initializer is starting
+2023-05-09 19:42:32,283 INFO This is a list collection
+2023-05-09 19:42:32,283 INFO This is a list collection
+2023-05-09 19:42:32,284 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 19:42:32,284 INFO This is a list collection
+2023-05-09 19:42:32,284 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 19:42:32,284 INFO Your insertion method is starting
+2023-05-09 19:42:32,284 INFO Arguments passed can not be greater than 2
+2023-05-09 22:28:03,042 INFO Initializer is starting
+2023-05-09 22:28:03,059 INFO This is a list collection
+2023-05-09 22:28:03,060 INFO This is a list collection
+2023-05-09 22:28:03,069 INFO The list passed is ['Ope', 'Christy'] and the reversed is ['Christy', 'Ope'] 
+2023-05-09 22:28:03,070 INFO This is a list collection
+2023-05-09 22:28:03,070 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 22:28:03,071 INFO 0
+2023-05-09 22:32:47,139 INFO Initializer is starting
+2023-05-09 22:32:47,149 INFO This is a list collection
+2023-05-09 22:32:47,149 INFO This is a list collection
+2023-05-09 22:32:47,149 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 22:32:47,150 INFO 0
+2023-05-09 22:46:42,644 INFO Initializer is starting
+2023-05-09 22:46:42,645 INFO This is a list collection
+2023-05-09 22:46:42,645 INFO This is a list collection
+2023-05-09 22:46:42,646 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor']
+2023-05-09 22:46:42,647 INFO 1
+2023-05-09 22:47:59,007 INFO Initializer is starting
+2023-05-09 22:47:59,008 INFO This is a list collection
+2023-05-09 22:47:59,008 INFO This is a list collection
+2023-05-09 22:47:59,008 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 22:47:59,008 INFO 2
+2023-05-09 22:49:31,762 INFO Initializer is starting
+2023-05-09 22:49:31,762 INFO This is a list collection
+2023-05-09 22:49:31,762 INFO This is a list collection
+2023-05-09 22:49:31,762 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 22:49:31,762 INFO Total number of occurrence of Victor is 2
+2023-05-09 23:36:47,309 INFO Initializer is starting
+2023-05-09 23:36:47,319 INFO This is a list collection
+2023-05-09 23:36:47,319 INFO This is a list collection
+2023-05-09 23:36:47,319 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 23:36:47,320 INFO Total number of occurrence of Victor is 2
+2023-05-09 23:36:47,320 INFO 2
+2023-05-09 23:36:47,320 INFO 3
+2023-05-09 23:44:12,718 INFO Initializer is starting
+2023-05-09 23:44:12,719 INFO This is a list collection
+2023-05-09 23:44:12,719 INFO This is a list collection
+2023-05-09 23:44:12,719 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 23:44:12,719 INFO Victor occurs 2 number of times
+2023-05-09 23:44:12,719 INFO Victor occurs 3 number of times
+2023-05-09 23:45:11,708 INFO Initializer is starting
+2023-05-09 23:45:11,709 INFO This is a list collection
+2023-05-09 23:45:11,709 INFO This is a list collection
+2023-05-09 23:45:11,709 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 23:45:11,709 INFO Victor occured for the first time in index 2 
+2023-05-09 23:45:11,709 INFO Victor occured for the first time in index 3 
+2023-05-09 23:50:51,833 INFO Initializer is starting
+2023-05-09 23:50:51,834 INFO This is a list collection
+2023-05-09 23:50:51,834 INFO This is a list collection
+2023-05-09 23:50:51,834 INFO You have appended Victor to the list to give ['Ope', 'Christy', 'Victor', 'Victor']
+2023-05-09 23:50:51,834 INFO Victor occurred for the first time in index 0 
+2023-05-09 23:50:51,834 INFO Victor occurred for the first time in index 1 
+2023-05-09 23:55:34,044 INFO Initializer is starting
+2023-05-09 23:55:34,044 INFO This is a list collection
+2023-05-09 23:55:34,044 INFO Victor occurred for the first time in index 2 
+2023-05-09 23:56:17,483 INFO Initializer is starting
+2023-05-09 23:56:17,484 INFO This is a list collection
+2023-05-09 23:56:17,484 INFO Ope occurred for the first time in index 0 
+2023-05-09 23:56:17,484 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:10:01,891 INFO Initializer is starting
+2023-05-10 13:10:01,912 INFO This is a list collection
+2023-05-10 13:10:01,912 INFO This is a list collection
+2023-05-10 13:13:47,486 INFO Initializer is starting
+2023-05-10 13:13:47,512 INFO This is a list collection
+2023-05-10 13:13:47,512 INFO Ope occurred for the first time in index 0 
+2023-05-10 13:13:47,512 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:13:47,513 INFO This is a list collection
+2023-05-10 13:15:53,246 INFO Initializer is starting
+2023-05-10 13:15:53,263 INFO This is a list collection
+2023-05-10 13:15:53,263 INFO Ope occurred for the first time in index 0 
+2023-05-10 13:15:53,263 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:15:53,264 INFO This is a list collection
+2023-05-10 13:15:53,264 INFO Your collection has been extended, new list is ['Ope', 'Christy', 'Victor', 'Ope', 'Tope', 'sudh'] while the old is ['Ope', 'Christy', 'Victor', 'Ope']
+2023-05-10 13:50:06,570 INFO Initializer is starting
+2023-05-10 13:50:06,597 INFO This is a list collection
+2023-05-10 13:50:06,597 INFO Ope occurred for the first time in index 0 
+2023-05-10 13:50:06,598 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:50:06,598 INFO This is a list collection
+2023-05-10 13:50:06,598 INFO can only concatenate list (not "tuple") to list
+2023-05-10 13:57:52,779 INFO Initializer is starting
+2023-05-10 13:57:52,780 INFO This is a list collection
+2023-05-10 13:57:52,780 INFO Ope occurred for the first time in index 0 
+2023-05-10 13:57:52,780 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:57:52,781 INFO This is a list collection
+2023-05-10 13:57:52,781 INFO can only concatenate list (not "str") to list
+2023-05-10 13:59:13,328 INFO Initializer is starting
+2023-05-10 13:59:13,328 INFO This is a list collection
+2023-05-10 13:59:13,328 INFO Ope occurred for the first time in index 0 
+2023-05-10 13:59:13,328 INFO Ope occurred for the first time in index 3 
+2023-05-10 13:59:13,328 INFO This is a list collection
+2023-05-10 13:59:13,329 INFO ['Ope', 'Christy', 'Victor', 'Ope', 'Tope', 'sudh']
+2023-05-10 14:01:45,843 INFO Initializer is starting
+2023-05-10 14:01:45,844 INFO This is a list collection
+2023-05-10 14:01:45,844 INFO Ope has index of 0 
+2023-05-10 14:01:45,844 INFO Ope has index of 3 
+2023-05-10 14:01:45,844 INFO This is a list collection
+2023-05-10 14:01:45,844 INFO can only concatenate list (not "tuple") to list
+2023-05-10 14:06:09,016 INFO Initializer is starting
+2023-05-10 14:06:09,017 INFO This is a list collection
+2023-05-10 14:06:09,017 INFO Ope has index of 0 
+2023-05-10 14:06:09,017 INFO Ope has index of 3 
+2023-05-10 14:06:09,017 INFO This is a list collection
+2023-05-10 14:06:09,017 INFO None
+2023-05-10 14:14:55,337 INFO Initializer is starting
+2023-05-10 14:14:55,380 INFO This is a list collection
+2023-05-10 14:14:55,380 INFO Ope has index of 0 
+2023-05-10 14:14:55,380 INFO Ope has index of 3 
+2023-05-10 14:14:55,380 INFO This is a list collection
+2023-05-10 14:16:31,631 INFO Initializer is starting
+2023-05-10 14:16:31,632 INFO This is a list collection
+2023-05-10 14:16:31,632 INFO Ope has index of 0 
+2023-05-10 14:16:31,632 INFO Ope has index of 3 
+2023-05-10 14:16:31,632 INFO This is a list collection
+2023-05-10 14:16:31,632 INFO This is a list collection
+2023-05-10 14:16:31,633 INFO You have appended Tope to the list to give ['Ope', 'Christy', 'Victor', 'Ope', 'Tope']
+2023-05-10 14:16:31,633 INFO This is a list collection
+2023-05-10 14:16:31,633 INFO You have appended sudh to the list to give ['Ope', 'Christy', 'Victor', 'Ope', 'Tope', 'sudh']
+2023-05-10 14:16:31,633 INFO ['Ope', 'Christy', 'Victor', 'Ope', 'Tope', 'sudh']
